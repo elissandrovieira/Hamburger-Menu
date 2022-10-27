@@ -14,3 +14,5 @@ function activeMenu(){
         menuOpen = false
     }
 }
+
+hamburger.addEventListener('click', activeMenu)
